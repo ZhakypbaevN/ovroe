@@ -543,6 +543,7 @@ section .img_hover_block {
 
 .header .bottom {
   padding: 24px 0;
+  background-color: #fff;
 }
 
 .header .bottom .container {
@@ -585,6 +586,15 @@ section .img_hover_block {
           align-items: center;
   text-transform: uppercase;
   color: #000000;
+}
+
+#header.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 100;
+  background-color: #fff;
 }
 
 .intro {
